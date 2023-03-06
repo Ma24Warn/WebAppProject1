@@ -46,7 +46,7 @@ header.whereToPlay {
 
 
 /*About video games*/
-section.about {
+div.about {
     width: 80%;
     border: 2px solid black;
     border-radius: 15px;
@@ -57,33 +57,64 @@ section.about {
 }
 
 
+img.about {
+    height: 100%;
+    width: 100%;
+}
+
+#ifloatL {
+    width: 15%;
+    height: auto;
+    float: left;
+
+}
+
+#dfloatR {
+    width: 80%;
+    height: auto;
+    float: right;
+}
+
+div.ifloatRight {
+    width: 15%;
+    height: auto;
+    float: right;
+}
+
+div.dfloatLeft {
+    width: 80%;
+    height: auto;
+    float: left;
+}
 
 
 
 
 aside.notableSites {
-    float: right;
-    width: 15%;
+    height: 100px;
     border: 2px solid black;
     border-radius: 15px;
     background-color: white;
     margin: 10px;
     padding-left: 10px;
-    text-align: center;
+    
 }
 
 h2.notableSites {
-
+    text-align: center;
 }
 
 ul.notableSites {
+    text-align: center;
     list-style-type: none;
-    width: 65%;
+
 }
 
 ul.notableSites li {
-    padding: 10px 0px;
+    display: inline;
+    padding: 10px 10px;
 }
+
 
 
 
@@ -106,7 +137,7 @@ ul.notableSites li {
 
 }
 
-div.popGames {
+section.popGames {
     width: 70%;
     border: 2px solid black;
     border-radius: 15px;
