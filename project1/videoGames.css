@@ -3,3 +3,155 @@ html {
 
 
 }
+
+header#titlePage {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+a:visited {
+    color: blue;
+}
+
+
+
+
+/*Where to play*/
+img.whereToPlay {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 20%;
+
+}
+
+div.whereToPlay {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+header.whereToPlay {
+    font-size: 20px;
+
+}
+
+
+
+
+
+/*About video games*/
+section.about {
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    margin: 10px;
+    padding-left: 10px;
+
+}
+
+
+
+
+
+
+aside.notableSites {
+    float: right;
+    width: 15%;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    margin: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+h2.notableSites {
+
+}
+
+ul.notableSites {
+    list-style-type: none;
+    width: 65%;
+}
+
+ul.notableSites li {
+    padding: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+/*Popular Games*/
+
+#submitFavorite {
+    background-color: white;
+
+}
+
+#submitForm {
+    float: right;
+    width: ;
+
+}
+
+div.popGames {
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    margin: 10px;
+    padding-left: 10px;
+
+}
+
+
+
+
+/*Navigation Menu*/
+nav.navMenu {
+    border: 1px solid darkblue;
+    background-color: #2D5DFF;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+/*should i not use a unordered list?????????????????????????????????????????*/
+ul.navMenu {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+}
+
+li.navMenu {
+    display: inline;
+    float: left;
+}
+
+li.navMenu a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+    padding: 17px;
+}
+
+li.navMenu a#selected {
+    background-color: darkblue;
+}
+
+li.navMenu a:hover {
+    background-color: darkblue;
+}
