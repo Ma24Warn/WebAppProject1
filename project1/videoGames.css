@@ -47,7 +47,7 @@ header.whereToPlay {
 
 /*About video games*/
 div.about {
-    width: 80%;
+    
     border: 2px solid black;
     border-radius: 15px;
     background-color: white;
@@ -56,34 +56,17 @@ div.about {
 
 }
 
+div.about p {
+    text-align: justify;
+}
 
 img.about {
-    height: 100%;
-    width: 100%;
-}
-
-#ifloatL {
-    width: 15%;
-    height: auto;
-    float: left;
-
-}
-
-#dfloatR {
-    width: 80%;
-    height: auto;
     float: right;
+    height: 100px;
+    width: 100px;
 }
 
-div.ifloatRight {
-    width: 15%;
-    height: auto;
-    float: right;
-}
-
-div.dfloatLeft {
-    width: 80%;
-    height: auto;
+#floatLeft {
     float: left;
 }
 
@@ -115,7 +98,10 @@ ul.notableSites li {
     padding: 10px 10px;
 }
 
-
+span.firstSent {
+    font-style: italic;
+    font-weight: bold;
+}
 
 
 

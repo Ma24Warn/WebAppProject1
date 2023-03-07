@@ -1,0 +1,22 @@
+#headerInfo {
+    text-align: center;
+}
+
+
+
+span.bold {
+    font-weight: bold;
+}
+
+#tab {
+    margin-left: 180px;
+}
+
+header {
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+section.info {
+    margin: 0px 0px 50px 100px
+}
