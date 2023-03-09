@@ -81,7 +81,7 @@ div.consolePic {
     float: left;
     margin: 15px;
     position: relative;
-    top: 53px;
+    top: 150px;
     left: 17px;
 }
 
@@ -135,7 +135,7 @@ td.first {
 div.about {
     border: 2px solid black;
     border-radius: 0px 15px 15px 15px;
-    background-color: rgb(241, 213, 146);
+    background-color: rgb(255, 255, 255);
     margin: 10px;
     padding: 10px;
     overflow: hidden;
@@ -146,9 +146,10 @@ div.about {
 div.header {
     border: 2px solid black;
     border-radius: 15px;
-    background-color: rgb(221, 193, 126);
+    background-color: rgb(221, 221, 221);
     margin: 10px;
     padding: 0px 5px 5px 5px;
+    text-align: center;
     position: relative;
     top: 30px;
     z-index: 1;
@@ -185,7 +186,7 @@ aside.notableSites {
     border: 2px solid black;
     border-radius: 15px;
     background-color: white;
-    margin: 10px;
+    margin: 30px 10px 10px 10px;
     padding-left: 10px;
     
 }
@@ -246,14 +247,18 @@ section.popGames {
 }
 
 #popGamesHeader {
-    width: 50%;
+    width: 55%;
     position: relative;
-    left: 25%;
+    left: 22%;
     padding: 5px 10px;
     margin-top: 10px;
     border: 2px solid black;
     border-radius: 15px;
     background-color: white;
+}
+
+span.bold {
+    font-weight: bold;
 }
 
 
