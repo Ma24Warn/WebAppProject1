@@ -20,40 +20,40 @@
         </nav>
 
 
-        <!--INCLUDE A FORM TO SUBMIT YOUR OWN FAVORITE VIDEO GAME!!!!-->
-        <aside id="submitForm">
-            <form id="submitFavorite" method="post">
+        <!--FORM TO SUBMIT YOUR OWN FAVORITE VIDEO GAME-->
+        <aside id="submitFavorite">
+            <form id="submitForm" method="post">
                 <fieldset>
-                <legend>Submit Your Favorite Game!</legend>>
+                    <legend>Submit Your Favorite Game!</legend><br>
 
-                <label for="gName">Name of Game</label>
-                <input id="gName" name="gameName" type="text" required/>
+                    <label for="gName">Name of Game</label>
+                    <input id="gName" name="gameName" type="text" required/><br>
 
-                <label for="rYear">Year Released</label>
-                <input id="rYear" name="releasedYear" type="number" min="1958" max="2023" step="1" value="2023" required/>
+                    <label for="rYear">Year Released</label>
+                    <input id="rYear" name="releasedYear" type="number" min="1958" max="2023" step="1" value="2023" required/><br>
 
-                <label for="system">System Played On</label>
-                <select id="system" name="systemPlayed" size="4" multiple>
-                    <option value="PC">PC</option>
-                    <option value="xbOrig">Xbox Original</option>
-                    <option value="xb360">Xbox 360</option>
-                    <option value="xbOne">Xbox One</option>
-                    <option value="xbSeries">Xbox Series S</option>
-                    <option value="ps1">Playstation 1</option>
-                    <option value="ps2">Playstation 2</option>
-                    <option value="ps3">Playstation 3</option>
-                    <option value="ps4">Playstation 4</option>
-                    <option value="ps5">Playstation 5</option>
-                    <option value="gamecube">Nintendo Gamecube</option>
-                    <option value="wii">Nintendo Wii</option>
-                    <option value="switch">Nintendo Switch</option>
-                    <option value="other">Other</option>
-                </select>
+                    <label for="system">System Played On</label>
+                    <select id="system" name="systemPlayed" size="4" multiple>
+                        <option value="PC">PC</option>
+                        <option value="xbOrig">Xbox Original</option>
+                        <option value="xb360">Xbox 360</option>
+                        <option value="xbOne">Xbox One</option>
+                        <option value="xbSeries">Xbox Series S</option>
+                        <option value="ps1">Playstation 1</option>
+                        <option value="ps2">Playstation 2</option>
+                        <option value="ps3">Playstation 3</option>
+                        <option value="ps4">Playstation 4</option>
+                        <option value="ps5">Playstation 5</option>
+                        <option value="gamecube">Nintendo Gamecube</option>
+                        <option value="wii">Nintendo Wii</option>
+                        <option value="switch">Nintendo Switch</option>
+                        <option value="other">Other</option>
+                    </select><br>
 
-                <label for="aCom">Additional Comments</label>
-                <textarea id="aCom" name="addComments" rows="4" cols="50"></textarea>
+                    <label for="aCom">Additional Comments</label>
+                    <textarea id="aCom" name="addComments" rows="4" cols="30"></textarea><br>
 
-                <input type="submit" id="submit" name="submit">
+                    <input type="submit" id="submit" name="submit">
 
 
                 </fieldset>
