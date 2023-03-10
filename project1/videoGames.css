@@ -1,3 +1,4 @@
+/*FOR ALL PAGES -----------------------------------------------------------------------------------------*/
 html {
     background: url(pictures/VGBackground.jpg);
 
@@ -15,10 +16,36 @@ a:visited {
     color: blue;
 }
 
+aside.notableSites {
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    margin: 30px 10px 10px 10px;
+    padding-left: 10px;
+    width: 97%;
+    float: left;
+}
+
+h2.notableSites {
+    text-align: center;
+}
+
+ul.notableSites {
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+ul.notableSites li {
+    display: inline;
+    padding: 10px 10px;
+    
+}
 
 
 
-/*Where to play*/
+/*Where to play ------------------------------------------------------------------------------------------*/
 img.whereToPlay {
     width: 150px;
     height: 150px;
@@ -137,7 +164,7 @@ td.first {
 
 
 
-/*About video games*/
+/*About video games ------------------------------------------------------------------------------------*/
 div.about {
     border: 2px solid black;
     border-radius: 0px 15px 15px 15px;
@@ -192,35 +219,6 @@ img.about {
 }
 
 
-
-
-
-aside.notableSites {
-    height: 100px;
-    border: 2px solid black;
-    border-radius: 15px;
-    background-color: white;
-    margin: 30px 10px 10px 10px;
-    padding-left: 10px;
-    
-}
-
-h2.notableSites {
-    text-align: center;
-}
-
-ul.notableSites {
-    text-align: center;
-    list-style-type: none;
-    
-}
-
-ul.notableSites li {
-    display: inline;
-    padding: 10px 10px;
-    
-}
-
 span.firstSent {
     font-style: italic;
     font-weight: bold;
@@ -233,7 +231,7 @@ span.firstSent {
 
 
 
-/*Popular Games*/
+/*Popular Games ----------------------------------------------------------------------------------------*/
 
 #submitFavorite {
     margin-top: 150px;
@@ -307,6 +305,7 @@ section.popGames {
 }
 
 section.popGames h2 {
+    margin-left: 20px;
     font-size: xx-large;
 }
 
@@ -326,7 +325,7 @@ section.popGames ol li {
 
 
 
-/*Navigation Menu*/
+/*Navigation Menu ----------------------------------------------------------------------------------------*/
 nav.navMenu {
     border: 1px solid darkblue;
     background-color: #2D5DFF;
@@ -334,7 +333,6 @@ nav.navMenu {
     border-radius: 20px;
 }
 
-/*should i not use a unordered list?????????????????????????????????????????*/
 ul.navMenu {
     list-style-type: none;
     overflow: hidden;
