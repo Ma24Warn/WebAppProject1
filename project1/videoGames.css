@@ -1,8 +1,8 @@
+/*All photos used are from Google Images*/
+
 /*FOR ALL PAGES -----------------------------------------------------------------------------------------*/
 html {
     background: url(pictures/VGBackground.jpg);
-
-
 }
 
 header#titlePage {
@@ -27,6 +27,11 @@ aside.notableSites {
     float: left;
 }
 
+ul.notableSites li a:hover {
+    background-color: rgb(250, 250, 250);
+    box-shadow: inset 3px 3px rgb(216, 216, 216);
+}
+
 h2.notableSites {
     text-align: center;
 }
@@ -39,10 +44,13 @@ ul.notableSites {
 
 ul.notableSites li {
     display: inline;
-    padding: 10px 10px;
     
 }
 
+ul.notableSites li a {
+    padding: 10px;
+    
+}
 
 
 /*Where to play ------------------------------------------------------------------------------------------*/
@@ -81,10 +89,6 @@ p.whereToPlay {
 div.consolePic {
     float: left;
 }
-
-
-
-
 
 
 #wtpHead {
@@ -160,10 +164,6 @@ td.first {
 }
 
 
-
-
-
-
 /*About video games ------------------------------------------------------------------------------------*/
 div.about {
     border: 2px solid black;
@@ -226,15 +226,11 @@ span.firstSent {
 
 
 
-
-
-
-
-
 /*Popular Games ----------------------------------------------------------------------------------------*/
 
 #submitFavorite {
-    margin-top: 150px;
+    font-size: 12pt;
+    margin-top: 160px;
     border: 2px solid black;
     border-radius: 15px;
     background-color: white;
@@ -294,15 +290,15 @@ section.popGames {
     border: 2px solid black;
     border-radius: 15px;
     background-color: white;
-    margin: 10px;
+    margin: 20px 10px 10px 10px;
     padding-left: 10px;
 
 }
 
 #popGamesHeader {
-    width: 50%;
+    width: 52%;
     position: relative;
-    left: 22%;
+    left: 21%;
     padding: 5px 10px 5px 50px;
     margin-top: 10px;
     border: 2px solid black;
@@ -361,8 +357,10 @@ li.navMenu a {
 
 li.navMenu a#selected {
     background-color: darkblue;
+    box-shadow: inset 5px 5px rgb(0, 0, 90);
 }
 
 li.navMenu a:hover {
     background-color: darkblue;
+    
 }
