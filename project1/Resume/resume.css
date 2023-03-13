@@ -1,7 +1,17 @@
 #headerInfo {
     text-align: center;
+    padding: 10px;
 }
 
+body {
+    display: block;
+    border: 1px solid black;
+    padding-bottom: 20px;
+}
+
+main {
+    margin-left: 20px;
+}
 
 
 span.bold {
@@ -12,9 +22,14 @@ span.bold {
     margin-left: 180px;
 }
 
+#contact {
+    margin-right: 75px;
+}
+
 header {
     font-weight: bold;
     font-size: 12pt;
+    text-decoration: underline;
 }
 
 section.info {
@@ -32,6 +47,10 @@ address {
 p {
     font-size: 12pt;
 
+}
+
+ul {
+    list-style-type: square;
 }
 
 li {

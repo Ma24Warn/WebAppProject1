@@ -1,6 +1,6 @@
 /*All photos used are from Google Images*/
 
-/*FOR ALL PAGES -----------------------------------------------------------------------------------------*/
+/*For all html pages --------------------------------------------------------------------------*/
 html {
     background: url(pictures/VGBackground.jpg);
 }
@@ -52,8 +52,47 @@ ul.notableSites li a {
     
 }
 
+/*Navigation Menu ------------------------------------------------------------------------------*/
+nav.navMenu {
+    border: 1px solid darkblue;
+    background-color: #2D5DFF;
+    margin: 5px;
+    border-radius: 20px;
+}
 
-/*Where to play ------------------------------------------------------------------------------------------*/
+ul.navMenu {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+}
+
+li.navMenu {
+    display: inline;
+    float: left;
+}
+
+li.navMenu a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+    padding: 17px;
+}
+
+li.navMenu a#selected {
+    background-color: darkblue;
+    box-shadow: inset 5px 5px rgb(0, 0, 90);
+}
+
+li.navMenu a:hover {
+    background-color: darkblue;
+    
+}
+
+
+
+/*Where To Play html page------------------------------------------------------------------------*/
 img.whereToPlay {
     width: 150px;
     height: 150px;
@@ -164,7 +203,7 @@ td.first {
 }
 
 
-/*About video games ------------------------------------------------------------------------------------*/
+/*About Video Games html page ------------------------------------------------------------------*/
 div.about {
     border: 2px solid black;
     border-radius: 0px 15px 15px 15px;
@@ -218,15 +257,15 @@ img.about {
     float: right;
 }
 
-
 span.firstSent {
     font-style: italic;
     font-weight: bold;
+    font-size: 16pt;
 }
 
 
 
-/*Popular Games ----------------------------------------------------------------------------------------*/
+/*Popular Games html page -----------------------------------------------------------------------*/
 
 #submitFavorite {
     font-size: 12pt;
@@ -322,45 +361,4 @@ ol {
 
 section.popGames ol li {
     margin: 10px;
-}
-
-
-
-
-/*Navigation Menu ----------------------------------------------------------------------------------------*/
-nav.navMenu {
-    border: 1px solid darkblue;
-    background-color: #2D5DFF;
-    margin: 5px;
-    border-radius: 20px;
-}
-
-ul.navMenu {
-    list-style-type: none;
-    overflow: hidden;
-    margin: 0px;
-}
-
-li.navMenu {
-    display: inline;
-    float: left;
-}
-
-li.navMenu a {
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    margin: 0px;
-    padding: 17px;
-}
-
-li.navMenu a#selected {
-    background-color: darkblue;
-    box-shadow: inset 5px 5px rgb(0, 0, 90);
-}
-
-li.navMenu a:hover {
-    background-color: darkblue;
-    
 }
