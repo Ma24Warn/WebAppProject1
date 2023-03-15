@@ -1,0 +1,364 @@
+/*All photos used are from Google Images*/
+
+/*For all html pages --------------------------------------------------------------------------*/
+html {
+    background: url(../pictures/VGBackground.jpg);
+}
+
+header#titlePage {
+    font-size: 75px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+a:visited {
+    color: blue;
+}
+
+aside.notableSites {
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    margin: 30px 10px 10px 10px;
+    padding-left: 10px;
+    width: 97%;
+    float: left;
+}
+
+ul.notableSites li a:hover {
+    background-color: rgb(250, 250, 250);
+    box-shadow: inset 3px 3px rgb(216, 216, 216);
+}
+
+h2.notableSites {
+    text-align: center;
+}
+
+ul.notableSites {
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+ul.notableSites li {
+    display: inline;
+    
+}
+
+ul.notableSites li a {
+    padding: 10px;
+    
+}
+
+/*Navigation Menu ------------------------------------------------------------------------------*/
+nav.navMenu {
+    border: 1px solid darkblue;
+    background-color: #2D5DFF;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+ul.navMenu {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+}
+
+li.navMenu {
+    display: inline;
+    float: left;
+}
+
+li.navMenu a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+    padding: 17px;
+}
+
+li.navMenu a#selected {
+    background-color: darkblue;
+    box-shadow: inset 5px 5px rgb(0, 0, 90);
+}
+
+li.navMenu a:hover {
+    background-color: darkblue;
+    
+}
+
+
+
+/*Where To Play html page------------------------------------------------------------------------*/
+img.whereToPlay {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 20%;
+    float: left;
+}
+
+div.whereToPlay {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+header.whereToPlay {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+p.whereToPlay {
+    font-size: x-large;
+    padding-left: 200px;
+    padding-top: 10px;
+    
+    margin-right: 50px;
+}
+
+div.consolePic {
+    float: left;
+}
+
+
+#wtpHead {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    left: 33%;
+}
+
+
+#specs {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    width: 900px;
+    position: relative;
+    left: 15%;
+}
+
+#specHeader {
+    width: 35%;
+    float: left;
+    margin: 15px;
+    position: relative;
+    top: 150px;
+    left: 17px;
+}
+
+#specTable {
+    border: 2px solid black;
+    
+    background-color: white;
+    margin: 20px 10px;
+}
+
+#specTable th {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+td.first {
+    font-weight: bold;
+}
+
+#specTable tr {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+#specTable td {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+#thxbox {
+    color: green;
+}
+
+#thps {
+    color: blue;
+}
+
+#thnintendo {
+    color: red;
+}
+
+
+/*About Video Games html page ------------------------------------------------------------------*/
+div.about {
+    border: 2px solid black;
+    border-radius: 0px 15px 15px 15px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+p.about {
+    margin-left: 30px;
+    margin-right: 200px;
+    font-size: large;
+}
+
+#fRight {
+    font-size: large;
+    margin-left: 190px;
+    margin-right: 30px;
+}
+
+div.header {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(221, 221, 221);
+    margin: 10px;
+    padding: 0px 5px 5px 5px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    z-index: 1;
+    width: 38%;
+}
+
+img.about {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 20%;
+   
+}
+
+#floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+span.firstSent {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+
+
+/*Popular Games html page -----------------------------------------------------------------------*/
+
+#submitFavorite {
+    font-size: 12pt;
+    margin-top: 160px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    float: right;
+    width: 19%;
+    padding-top: 10px;
+    
+}
+#submitForm {
+    width: 100%;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 0;
+
+}
+
+legend {
+    margin-right: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#gName {
+    width: 80%;
+
+}
+
+#rYear {
+    width: 20%;
+}
+
+#system {
+    width: 60%;
+}
+
+
+#submit {
+    width: 25%;
+}
+
+#aCom {
+    width: 80%;
+}
+
+
+
+#pgLeft {
+    width: 80%;
+    float: left;
+}
+
+section.popGames {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    margin: 20px 10px 10px 10px;
+    padding-left: 10px;
+
+}
+
+#popGamesHeader {
+    width: 52%;
+    position: relative;
+    left: 21%;
+    padding: 5px 10px 5px 50px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+section.popGames h2 {
+    margin-left: 20px;
+    font-size: xx-large;
+}
+
+span.bold {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+ol {
+    font-size: 20px;
+}
+
+section.popGames ol li {
+    margin: 10px;
+}
