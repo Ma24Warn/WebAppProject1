@@ -1,6 +1,7 @@
 #headerInfo {
     text-align: center;
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -31,14 +32,17 @@ h2 {
     font-size: 16pt;
     text-decoration: underline;
     font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 section.info {
-    margin: 50px 0px 0px 100px
+    margin: 50px 0px 0px 100px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
     font-size: 18pt;
+    
 }
 
 address {
@@ -48,7 +52,6 @@ address {
 
 p {
     font-size: 12pt;
-
 }
 
 ul {
@@ -57,5 +60,4 @@ ul {
 
 li {
     font-size: 12pt;
-
 }
